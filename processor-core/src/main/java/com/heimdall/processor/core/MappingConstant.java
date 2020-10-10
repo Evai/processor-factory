@@ -6,16 +6,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Project:               spring-wild
- * Author:                crh
- * Company:               Big Player Group
- * Created Date:          2020/9/23
- * Description:   {类描述}
- * Copyright @ 2017-2020 BIGPLAYER.GROUP – Confidential and Proprietary
- * <p>
- * History:
- * ------------------------------------------------------------------------------
- * Date            |time        |Author    |Change Description
+ * @author crh
+ * @since 2020-10-03
  */
 @Retention(RetentionPolicy.CLASS)
 @Target(ElementType.TYPE)
