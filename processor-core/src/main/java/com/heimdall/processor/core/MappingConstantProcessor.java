@@ -47,9 +47,9 @@ public class MappingConstantProcessor extends AbstractProcessor {
 
     @Override
     public Set<String> getSupportedAnnotationTypes() {
-        Set<String> annotataions = new LinkedHashSet<>();
-        annotataions.add(MappingConstant.class.getCanonicalName());
-        return annotataions;
+        Set<String> annotations = new LinkedHashSet<>();
+        annotations.add(MappingConstant.class.getCanonicalName());
+        return annotations;
     }
 
     @Override
@@ -206,7 +206,7 @@ public class MappingConstantProcessor extends AbstractProcessor {
      * @param clazz type
      * @return boolean
      */
-    private static boolean isPrimitiveOrBox(Class clazz) {
+    private static boolean isPrimitiveOrBox(Class<?> clazz) {
         if (clazz == null) {
             return false;
         }

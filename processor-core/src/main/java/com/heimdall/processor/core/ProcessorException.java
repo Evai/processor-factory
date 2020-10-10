@@ -6,6 +6,8 @@ package com.heimdall.processor.core;
  */
 public class ProcessorException extends RuntimeException {
 
+    private static final long serialVersionUID = -4580810318408300251L;
+
     public ProcessorException(String message) {
         super(message);
     }
