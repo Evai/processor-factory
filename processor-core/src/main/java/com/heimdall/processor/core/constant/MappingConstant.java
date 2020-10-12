@@ -1,4 +1,4 @@
-package com.heimdall.processor.core;
+package com.heimdall.processor.core.constant;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

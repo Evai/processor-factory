@@ -1,7 +1,7 @@
 package com.heimdall.processor.demo;
 
 
-import com.heimdall.processor.core.MappingConstant;
+import com.heimdall.processor.core.constant.MappingConstant;
 
 @MappingConstant(withEnumName = true)
 public enum  UserEnum implements IErrorCode {

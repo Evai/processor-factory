@@ -1,4 +1,4 @@
-package com.heimdall.processor.core;
+package com.heimdall.processor.core.constant;
 
 import com.squareup.javapoet.TypeName;
 
