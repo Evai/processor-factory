@@ -12,14 +12,11 @@ import java.util.List;
  */
 @Data
 @MappingModel(suffixName = "DTO", excludeFields = {"createdBy"}, addFieldClasses = {DeliveryOrderField.class})
-@MappingModel(suffixName = "Resp", packageName = "com.heimdall.processor.demo.model.resp", includeFields = {"id", "createdAt","deliveryOrderProducts", "deliveryOrderItems"})
+@MappingModel(suffixName = "VO", packageName = "com.heimdall.processor.demo.model.vo", includeFields = {"id", "createdAt","deliveryOrderProducts", "deliveryOrderItems"})
 public class DeliveryOrderData {
 
     private Long id;
 
-    /**
-     * 创建时间
-     */
     private Date createdAt;
 
     private Long createdBy;

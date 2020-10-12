@@ -11,7 +11,7 @@ import lombok.experimental.Accessors;
 @Data
 @Accessors(chain = true)
 @MappingModel(suffixName = "DTO", excludeFields = "canceledQuantity")
-@MappingModel(suffixName = "Resp",packageName = "com.heimdall.processor.demo.model.resp")
+@MappingModel(suffixName = "VO",packageName = "com.heimdall.processor.demo.model.vo")
 public class DeliveryOrderProductData {
 
     private Long id;

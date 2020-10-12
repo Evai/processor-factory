@@ -15,7 +15,7 @@ import java.util.List;
 @Data
 @Accessors(chain = true)
 @MappingModel(suffixName = "DTO")
-@MappingModel(suffixName = "Resp",packageName = "com.heimdall.processor.demo.model.resp")
+@MappingModel(suffixName = "VO",packageName = "com.heimdall.processor.demo.model.vo")
 public class DeliveryOrderItemData {
 
     private Long id;
