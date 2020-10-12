@@ -188,5 +188,6 @@ public class DeliveryOrderDataDTO {
         ", version=" + version +
         "}";
   }
+}
 ```
 
